@@ -3,8 +3,8 @@ interface User {
   age: number;
   email: string;
   address?: {
-    city?: "New York";
-    country?: "USA";
+    city?: string;
+    country?: string;
   };
 }
 
